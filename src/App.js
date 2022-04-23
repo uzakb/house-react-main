@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './componets/header/Header.jsx';
-import {BrowserRouter, Link, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Login from './componets/login/Login';
 import { Main } from './componets/main/Main';
 import Cord from './componets/card/Cord';

@@ -13,7 +13,7 @@ export default function Cord(){
             setHouse(data)
 
         })
-    }, []);
+    }, [id]);
     if(house === null){
         return <h1> Loging....</h1>
     }
