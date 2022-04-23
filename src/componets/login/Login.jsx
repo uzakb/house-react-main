@@ -16,7 +16,7 @@ export default function Login() {
         if(state === "admin" && password === "admin" ){
             navigate("/create-new-add")
         }else{
-            setError(true )
+            setError(error )
 
         }
     }
